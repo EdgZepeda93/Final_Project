@@ -1,0 +1,9 @@
+# display menu options
+# ask user for option
+# if input equals a -> ask to enter game and rating
+# if input equals b -> ask user for a rating and display games for that rating
+# if input equals e -> exit program
+# create a menu by using an if statement
+# take in user input
+#add hours to the file
+#sort throught the list 
