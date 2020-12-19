@@ -1,3 +1,1 @@
-#Make program display hours of game in option c.
-#add comments to program.
- 
+Project is Complete.
