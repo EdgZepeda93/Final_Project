@@ -90,13 +90,19 @@ while(option != "e"):
   elif option == "c":
       f1 = open("GameRating.txt", 'r')
       hoursList = []
-      hours = int(input("Enter hours: "))
+      gameHourPair = dict()
+#Test the input for errors and handle by going to the menu.
+      try:
+        hours = int(input("Enter hours: "))
+      except:
+        print("Input must me a number")
+        continue
 #the key is game, the value is the hours
       for key, value in gameHours.items():
         if(int(value) <= int(hours)):
-          hoursList.append(key)
-#prints the list sorted
-      printSortedListItems(hoursList)
+          gameHourPair[key] = value;
+      for key, value in gameHourPair.items():
+        print(" • " + key + " - played for " + value + " hours")
 #the code ends when 'e' is inputted.
   elif option == "e":
     print("\nExiting ...\n")
