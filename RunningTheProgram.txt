@@ -1,0 +1,10 @@
+Running The Program:
+
+Run the program.
+once the program is open the options menu will appear.
+If you do not have a file with the games stored  you will select option 'a' in order to create the file and input the games,rating, and hours played.
+once you all the games you want to keep track of you exit back to the menu.
+Depending what you want to sort by you will select option 'b' or 'c'
+if you want to sort by rating. You will select option 'b' and input from 1-5 to pull from the dictionary the items that equal the value you inputted.
+if you want to sort by hours. You will select option 'c' and input by the hours you want it to display. It will pull from the dicitonary and display all the games that are less than the value you selected.
+If you want to exit the program you will select option 'e'
